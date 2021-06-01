@@ -10,3 +10,5 @@ init  projct
 created model 
 ### v1.0.1
 created Repository
+### v1.0.2
+created controller  and service
