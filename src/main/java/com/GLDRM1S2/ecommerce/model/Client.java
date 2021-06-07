@@ -8,7 +8,7 @@ import java.util.Objects;
 
 @Entity
 @Table(name = "client")
-public class Client  extends  Internaute{
+public class Client {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "ID")

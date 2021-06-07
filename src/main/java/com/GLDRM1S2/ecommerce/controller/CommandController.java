@@ -11,7 +11,8 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/v1/Command")
-public class CommandController {
+public class
+CommandController {
     @Autowired
     private CommandService commandService;
 

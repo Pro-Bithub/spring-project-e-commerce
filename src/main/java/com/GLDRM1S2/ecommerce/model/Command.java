@@ -20,8 +20,7 @@ public class Command {
     @Temporal(value = TemporalType.TIMESTAMP)
     @Column(name = "datecommande")
     private Date datecommande = new Date();
-   @ManyToOne()
-    private Produit produit;
+
 
     public Long getId() {
         return id;
@@ -39,11 +38,5 @@ public class Command {
         this.datecommande = datecommande;
     }
 
-    public Produit getProduit() {
-        return produit;
-    }
 
-    public void setProduit(Produit produit) {
-        this.produit = produit;
-    }
 }
