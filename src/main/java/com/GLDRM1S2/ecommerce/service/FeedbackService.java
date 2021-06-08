@@ -55,4 +55,8 @@ public class FeedbackService {
         feedbackRepository.deleteById(id);
         return null;
     }
+
+    public Feedback getbyid(Long id) {
+        return feedbackRepository.getById(id);
+    }
 }

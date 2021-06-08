@@ -12,3 +12,13 @@ created model
 created Repository
 ### v1.0.2
 created controller  and service
+
+### v1.0.3
+related to anthr project
+
+### v1.0.4
+added panier
+
+### v1.0.4
+added swagger
+

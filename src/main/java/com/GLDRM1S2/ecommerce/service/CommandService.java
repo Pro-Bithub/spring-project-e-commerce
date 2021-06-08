@@ -24,4 +24,7 @@ public class CommandService {
         return null;
     }
 
+    public Command getbyid(Long id) {
+        return commandeRepository.getById(id);
+    }
 }
